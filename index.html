@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.png">
+  <title>React JSX</title>
+  <link rel="stylesheet" href="./libs/bootstrap.min.css">
+  <style>
+    #root button {
+      width: 35px;
+      height: 35px;
+      outline: none;
+      transition: background-color 0.2s ease-in-out;
+    }
+  </style>
+</head>
+<body>
+  <div class="container py-3">
+    <h1>React JSX - Trip to the Moon</h1>
+    <div id="root" class="border p-3"></div>
+  </div>
+  <!-- Live babel jsx compiler -->
+  <script src="libs/babel.min.js"></script>
+  <script crossorigin src="libs/react.production.min.js"></script>
+  <script crossorigin src="libs/react-dom.production.min.js"></script>
+  <!-- Source files -->
+  <!-- <script type="text/babel" src="end-game.component.js"></script> -->
+  <script type="text/babel">
+    // ReactDOM.render(<Root />, document.getElementById("root"));
+  </script>
+</body>
+</html>
