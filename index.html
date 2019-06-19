@@ -22,13 +22,16 @@
     <div id="root" class="border p-3"></div>
   </div>
   <!-- Live babel jsx compiler -->
-  <script src="libs/babel.min.js"></script>
-  <script crossorigin src="libs/react.production.min.js"></script>
-  <script crossorigin src="libs/react-dom.production.min.js"></script>
+  <script src="./libs/babel.min.js"></script>
+  <script crossorigin src="./libs/react.production.min.js"></script>
+  <script crossorigin src="./libs/react-dom.production.min.js"></script>
   <!-- Source files -->
-  <!-- <script type="text/babel" src="end-game.component.js"></script> -->
+  <script type="text/babel" src="./components/Stepper.js"></script>
+  <script type="text/babel" src="./components/MoonTrip.js"></script>
+  <script type="text/babel" src="./components/Root.js"></script>
+  <!-- Render -->
   <script type="text/babel">
-    // ReactDOM.render(<Root />, document.getElementById("root"));
+    ReactDOM.render(<Root />, document.getElementById("root"));
   </script>
 </body>
 </html>
